@@ -4,12 +4,15 @@ The writeup will be displayed in this README as the project develops.
 
 ---
 
-Here's what I've done so far:
+What I started with:
 * EC2 instance up and running
-* T-Pot framework installed (honeypot itself is currently active)
+* T-Pot framework installed
 * Security groups configured for my own access and inbound traffic rules
 
-I will leave it running for a few more days to gather about a week worth of logs.
-I'll write up the process in more depth once I stop the honeypot.
+What happened:
+* Ran the machine for roughly 7 days
+* Logged over 140,000 attacks from all over the world
+* Logged attack patterns, executions, and password attempts
 
-After I gather all of the data, I plan to create a python program that filters and organizes attacker information.
+What's next:
+* Actively building a log parser in Python to personalize data aggregation
