@@ -19,4 +19,6 @@ Total attacks/connections: `140,000+`
 
 ## Log Analysis
 
-A log parser in Python is *actively* being built to personalize data aggregation. It's important to note that the cleanup of this data has been a heavy part of this project since all of T-Pot's data is from a variety of different sources with different formats. Nonetheless, by the end of it, some additional valuable insight should be obtained.
+The other portion of this project was building a log parser in Python to personalize data aggregation. It's important to note that the cleanup of this data has been a heavy part of this project since all of T-Pot's data is from a variety of different sources with different formats. Regardless, a lot of valuable insight was obtained.
+
+After initially aggregating the logs, roughly `2,700,000` events were stored across a mix of honeypots and network sensors. That is a LOT of data.
